@@ -82,6 +82,7 @@ h1, h2 {
     font-size: 18pt;
 text-transform: uppercase;
 color: #999999;
+   text-align: justify;
 }
 
 .content{
