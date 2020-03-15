@@ -1,0 +1,166 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+ 
+.description,
+.wrapper .subtext {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper{
+    max-width: 940px;
+    margin: 152px auto auto auto;
+    text-align: center;
+}
+
+.wrapper .head{
+    color: #898f99;
+    font-weight: bold;
+    font-size: 12pt;
+    text-transform: uppercase;   
+    letter-spacing: 0.4em;
+}
+
+.wrapper .caption{
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+.wrapper .caption .header{
+    color: #0ec8cb;
+    text-transform: uppercase;
+    font-size: 48pt;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    margin: 4px 0 18px 0;
+}
+
+.wrapper .subtext{
+    font-size: 18pt;
+text-transform: uppercase;
+color: #999999;
+}
+
+.content{
+    font-size: 0;
+}
+
+.content div.block{
+    max-width: 25%;
+    height: 420px;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 30px 30px;
+    margin: 100px auto;
+    border: 1px solid #ececec;
+    vertical-align: middle;
+    color: black;
+}
+
+
+
+.content div.block .header{
+    
+    font-size: 18pt;
+    text-transform: uppercase;
+    margin: 40px auto;
+    text-align: center;
+    letter-spacing: -0.06em;
+}
+
+
+.section{
+    vertical-align: middle;
+}
+
+.monitor,
+.glasses,
+.diamond,
+.anchor{
+    width: 66px;
+    height: 66px;
+    background-image: url(bg.png);
+    margin: 30px auto;
+}
+
+.anchor{
+    background-image: url(bg.png);
+}
+
+.diamond{
+background-position: 200px 0px;
+margin: 30px auto 5px auto;
+}
+
+.glasses{
+background-position: 402px 0px;
+}
+
+.monitor{
+    background-position: 66px 0px;
+    }
+
+    .content div.block:hover{
+background: #0ec8cb;
+color: white;
+}
+
+.content div.block:hover .anchor{
+    background-position: 0, 0px;
+}
+
+.content div.block:hover .diamond{
+    background-position: 200px, 200px;
+}
+
+.content div.block:hover .glasses{
+    background-position: 402px, 66px;
+}
+
+.content div.block:hover .monitor{
+    background-position: 66px, 66px;
+}
